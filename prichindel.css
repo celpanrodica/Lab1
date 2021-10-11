@@ -1,0 +1,140 @@
+body {
+    background-color: rgb(216, 224, 230);
+    margin: 60px 90px 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: left;
+}
+.title{
+    font-size: 40px;
+    text-align: center;
+    color: rgba(25, 25, 83, 0.575);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.Rezumat{
+    margin: 60px 90px 60px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+    .active{
+     position:absolute;
+    top:8%;
+    left:92%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50,-50);
+    -ms-transform: translate(-50%,-50%);    
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    }
+    .butt{
+    border: 3px solid #218294;
+    font-size: 30px;
+    color:#218294;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position:relative;
+    transition: 0.5s;
+    overflow: hidden;
+    }
+    .butt::before,
+    .butt::after{
+position: absolute;
+content: '';
+width: 100%;
+height: 100%;
+background: #218294;
+top: 0;
+left: -100%;
+opacity: 0.5;
+transition: .3s;
+z-index: -1;
+    }
+    .butt::after {
+        opacity: 1;
+       }
+
+    .butt:hover{
+        color:#fff;
+    }
+    .butt:hover::before,
+    .butt:hover::after{
+        left: 0;
+    }
+    
+
+    div.bound
+    {
+        margin: 70px ;
+        width: 80%;
+        height: 250px;
+        background: hidden;  /* fallback for old browsers */
+        padding: 40px 65px 40px;
+    }
+    div.image2
+    {
+        content:url(https://www.povesti-pentru-copii.com/img/scufita-rosie.jpg);
+        border-radius: 15px;
+        display: inline-block;
+        margin-right: 40px;
+    }
+    div.image1
+    {
+        content:url(https://www.povesti-pentru-copii.com/img/casuta-din-padure.jpg);
+        border-radius: 15px;
+        display: inline-block;
+        margin-right: 40px;
+    }
+    div.image3
+    {
+        content:url(https://www.povesti-pentru-copii.com/img/cenusareasa.jpg);
+        border-radius: 15px;
+        display: inline-block;
+        margin-right: 40px;
+    }
+    div.image4 {
+        content: url(https://www.povesti-pentru-copii.com/img/gasca-de-aur.jpg);
+        border-radius: 15px;
+        display: inline-block;
+        margin-right: 40px;
+    }
+    div.image5 {
+        content: url(https://www.povesti-pentru-copii.com/img/printul-fermecat.jpg);
+        border-radius: 15px;
+        display: inline-block;
+        margin-right: 40px;
+    }
+    div.image6 {
+        content: url(https://www.povesti-pentru-copii.com/img/ploaia-de-stele.jpg);
+        border-radius: 15px;
+        display: inline-block;
+        margin-right: 40px;
+    }
+    
+    table{
+        font-family: sans-serif;
+        text-align: center;
+        border-collapse: separate;
+        border-spacing: 10px;
+        background: #ece9e0;
+        color: #656665;
+        border: 16px solid #ece9e0;
+        border-radius: 20px;
+    }
+    th{
+        font-size: 18px;
+        padding: 10px;
+    }
+    td{
+        background: lightgrey;
+        padding: 10px;
+    }
+    
